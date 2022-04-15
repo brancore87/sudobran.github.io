@@ -433,8 +433,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 220px; 
-            left: 130%;
+            top: 120px; 
+            left: 340%;
         }
         
         .python-img{
@@ -460,8 +460,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 210px;
-            left: 50%;
+            top: 120px;
+            left: 165%;
         }
         
         .django-img{
@@ -487,8 +487,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 210px;
-            left: 10%;
+            top: 120px;
+            left: 20%;
             
         }
         .js-img{
@@ -513,8 +513,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 200px;
-            left: -135%;
+            top: 120px;
+            left: -215%;
         }
 
         .react-img{
@@ -539,8 +539,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: fixed;
             z-index: 1;
-            top: 210px;
-            left: -155%;
+            top: 120px;
+            left: -280%;
         }
         
         .postgres-img{
