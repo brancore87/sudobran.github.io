@@ -381,7 +381,7 @@ li.postgres:hover .tooltip {
         
         .brand-name{
             color: rgb(255, 255, 255);
-            font-size: 40px;
+            font-size: 30px;
             transition: all 1s;
         }
         
@@ -389,7 +389,7 @@ li.postgres:hover .tooltip {
             color: rgb(255, 255, 255);
             font-weight: bold;
             text-shadow: 5px 1px 2px rgb(174, 0, 255);
-            font-size: 55px;
+            font-size: 40px;
             animation: pulse 5s infinite;
             transform: scale(1);
         }
@@ -556,10 +556,10 @@ li.postgres:hover .tooltip {
             display: flex;
             justify-content:center;
             align-content:space-around;
-            font-size: 1.5em;
+            font-size: 0.5em;
             text-align: center;
             align-items: center;
-            max-width: auto;
+            width: 90%;
             height: 100%;
             margin: auto;
         }
