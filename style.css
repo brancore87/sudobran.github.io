@@ -1,0 +1,307 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(21, 2, 22));
+    color:white;
+}
+
+
+@keyframes pulse {
+    100% {
+      border-color: #e600ff;
+      text-shadow: 5px 1px 2px rgb(174, 0, 255);
+    }
+    100% {
+        border-color: #00d0ff;
+        text-shadow: 5px 1px 2px rgb(0, 166, 255);
+        
+    }
+    100% {
+        border-color: #bf00ff;
+        color: black;
+        font-weight: bold;
+        text-shadow: 5px 1px 2px rgb(255, 255, 255);
+    }
+  }
+
+@keyframes change{
+    0%{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 255, 102));    
+    }
+    50%{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(42, 2, 88));
+    }
+    50%{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 110, 200));
+        
+    }
+    50%{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(200, 0, 0));
+        
+    }
+}
+
+#sudobran{
+    animation: change 5s infinite;
+
+}
+
+header{
+    border: 1px solid rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    margin: 15px 15px;
+    text-align: center;
+    cursor: crosshair;
+    transition: all 1s;
+}
+
+header:hover{
+    border: 2px solid rgb(162, 0, 255);
+    width: auto;
+    height: auto;
+    margin: 15px 15px;
+    text-align: center; 
+    transform: scale(1);
+    animation: pulse 5s infinite;
+
+}
+
+.full-stack{
+    width: auto;
+    height: auto;
+    margin: 15px 15px;
+    text-align: center;
+    cursor: crosshair;
+    transition: all 1s;
+}
+
+.full-stack:hover{
+    width: auto;
+    height: auto;
+    /* font-size: 25px; */
+    margin: 15px 15px;
+    text-align: center; 
+    transform: scale(1.2);
+    animation: pulse 5s infinite;
+
+}
+
+.brand-name{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    transition: all 1s;
+}
+
+.brand-name:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 5px 1px 2px rgb(174, 0, 255);
+    font-size: 55px;
+    animation: pulse 5s infinite;
+    transform: scale(1);
+}
+
+ul {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 10px;
+    margin: 15px 15px;
+    transition: all 1s;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+
+}
+
+ul:hover{
+    border: 1px solid rgb(187, 0, 255);
+    transform: scale(1);  
+}
+
+li.python:hover{
+    font-size: 35px;
+    color: green;
+    text-shadow: 1px 1px 1px rgb(17, 255, 0);
+    cursor: crosshair;
+    transform: scale(1.1);  
+}
+
+li.python   .tooltip{
+    visibility: hidden;
+    width: 100px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 110%;
+}
+
+li.python:hover .tooltip {
+    visibility: visible;
+  }
+
+
+li.django:hover{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px 3px rgb(17, 255, 0);
+    cursor: crosshair;
+    transform: scale(1.1);  
+}
+
+li.django   .tooltip{
+    visibility: hidden;
+    width: 100px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 110%;
+}
+
+li.django:hover .tooltip {
+    visibility: visible;
+  }
+
+li.javascript:hover{
+    font-size: 35px;
+    color: rgb(255, 230, 0);
+    text-shadow: 1px 1px 3px rgb(255, 255, 0);
+    cursor: crosshair;
+    transform: scale(1.1);  
+}
+
+li.javascript   .tooltip{
+    visibility: hidden;
+    width: 100px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 110%;
+}
+
+li.javascript:hover .tooltip {
+    visibility: visible;
+  }
+
+li.react:hover{
+    font-size: 35px;
+    color: rgb(0, 251, 255);
+    text-shadow: 1px 1px 3px rgb(0, 251, 255);
+    cursor: crosshair;
+    transform: scale(1.1);  
+}
+
+li.react   .tooltip{
+    visibility: hidden;
+    width: 100px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 110%;
+}
+
+li.react:hover .tooltip {
+    visibility: visible;
+  }
+
+li.postgres:hover{
+    font-size: 35px;
+    color: rgb(0, 162, 255);
+    text-shadow: 1px 1px 3px rgb(0, 162, 255);
+    cursor: crosshair;
+    transform: scale(1.1);  
+}
+
+li.postgres   .tooltip{
+    visibility: hidden;
+    width: 100px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 110%;
+}
+
+li.postgres:hover .tooltip {
+    visibility: visible;
+  }
+
+
+.container {
+    display: flex;
+    justify-content:center;
+    align-content: flex-end;
+    font-size: 1.5em;
+    text-align: center;
+    align-items: center;
+    height: 50%;
+}
+
+.box1{
+    border: 1px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px; 
+    transition: all 1s;
+}
+.box1:hover{
+    border-color: purple;
+    background-image: url(./assets/purple-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+    transform: rotate(1080deg);
+}
+
+.box2{
+    border: 1px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px; 
+    transition: all 1s;
+}
+.box2:hover{
+    border-color: rgb(1, 255, 10);
+    background-image: url(./assets/green-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.1);
+    transform: rotate(1080deg);
+}
+
+.box3{
+    border: 1px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px; 
+    transition: all 1s;
+}
+
+.box3:hover{
+    border-color: rgb(229, 255, 0);
+    background-image: url(./assets/yellow-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.1);
+    transform: rotate(1080deg);
+}
+
