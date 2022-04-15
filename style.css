@@ -105,7 +105,7 @@ header:hover{
 .full-stack{
     width: auto;
     height: auto;
-    margin: 15px 15px;
+    margin: auto;
     text-align: center;
     cursor: crosshair;
     transition: all 1s;
@@ -117,7 +117,7 @@ header:hover{
     /* font-size: 25px; */
     margin: 15px 15px;
     text-align: center; 
-    transform: scale(1.2);
+    transform: scale(1);
     animation: pulse 5s infinite;
 
 }
@@ -370,7 +370,7 @@ li.postgres:hover .tooltip {
             /* font-size: 25px; */
             margin: 15px 15px;
             text-align: center; 
-            transform: scale(1.2);
+            transform: scale(1);
             animation: pulse 5s infinite;
         
         }
