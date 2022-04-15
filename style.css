@@ -416,7 +416,7 @@ li.postgres:hover .tooltip {
         }
         
         li.python:hover{
-            font-size: 35px;
+            font-size: 20px;
             color: green;
             text-shadow: 1px 1px 1px rgb(17, 255, 0);
             cursor: crosshair;
@@ -429,8 +429,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 50px; 
-            left: 165%;
+            top: 220px; 
+            left: 130%;
         }
         
         .python-img{
@@ -443,7 +443,7 @@ li.postgres:hover .tooltip {
           }
         
         li.django:hover{
-            font-size: 35px;
+            font-size: 20px;
             color: rgb(0, 0, 0);
             text-shadow: 2px 1px 3px rgb(17, 255, 0);
             cursor: crosshair;
@@ -456,8 +456,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 50px;
-            left: 100%;
+            top: 210px;
+            left: 50%;
         }
         
         .django-img{
@@ -470,7 +470,7 @@ li.postgres:hover .tooltip {
         
 
         li.javascript:hover{
-            font-size: 35px;
+            font-size: 20px;
             color: rgb(255, 230, 0);
             text-shadow: 1px 1px 3px rgb(255, 255, 0);
             cursor: crosshair;
@@ -483,8 +483,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 70px;
-            left: 30%;
+            top: 210px;
+            left: 10%;
             
         }
         .js-img{
@@ -496,7 +496,7 @@ li.postgres:hover .tooltip {
           }
         
         li.react:hover{
-            font-size: 35px;
+            font-size: 20px;
             color: rgb(0, 251, 255);
             text-shadow: 1px 1px 3px rgb(0, 251, 255);
             cursor: crosshair;
@@ -509,8 +509,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
-            top: 55px;
-            left: -100%;
+            top: 200px;
+            left: -135%;
         }
 
         .react-img{
@@ -522,7 +522,7 @@ li.postgres:hover .tooltip {
           }
 
         li.postgres:hover{
-            font-size: 35px;
+            font-size: 20px;
             color: rgb(0, 162, 255);
             text-shadow: 1px 1px 3px rgb(0, 162, 255);
             cursor: crosshair;
@@ -535,8 +535,8 @@ li.postgres:hover .tooltip {
             /* Position the tooltip */
             position: fixed;
             z-index: 1;
-            top: 55px;
-            left: -130%;
+            top: 210px;
+            left: -155%;
         }
         
         .postgres-img{
@@ -570,8 +570,8 @@ li.postgres:hover .tooltip {
         .box1:hover{
             border-color: purple;
             background-image: url(./assets/purple-icon.png);
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-repeat:no-repeat;
+            background-size:cover;
             background-position: center;
             transform: scale(1);
             transform: rotate(1080deg);
@@ -596,7 +596,7 @@ li.postgres:hover .tooltip {
         }
         
         .box3{
-            border: 1px solid rgb(255, 255, 255);
+            /* border: 1px solid rgb(255, 255, 255); */
             width: 100px;
             height: 100px;
             margin: 10px;
@@ -605,13 +605,20 @@ li.postgres:hover .tooltip {
         }
         
         .box3:hover{
-            border-color: rgb(229, 255, 0);
-            background-image: url(./assets/yellow-icon.png);
+            /* border-color: rgb(229, 255, 0);
+            background-image: url(./assets/yellow-icon.png); 
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center;
-            transform: scale(1.1);
+            background-position: center;  */
+            transform: scale(1);
             transform: rotate(1080deg);
-        }        
+        }    
+        .box3.yellow-icon{
+           max-width: 100%;
+           height: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }    
 }
 
