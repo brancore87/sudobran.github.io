@@ -621,3 +621,40 @@ li.postgres:hover .tooltip {
 }
 
 
+@media only screen and (max-width: 349px) {
+    .brand-name{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        transition: all 1s;
+    }
+    
+    .brand-name:hover{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-shadow: 5px 1px 2px rgb(174, 0, 255);
+        font-size: 35px;
+        animation: pulse 5s infinite;
+        transform: scale(1);
+    }
+
+    .full-stack{
+        font-size: 10px;
+        width: auto;
+        height: auto;
+        margin: 15px 15px;
+        text-align: center;
+        cursor: crosshair;
+        transition: all 1s;
+    }
+    
+    .full-stack:hover{
+        width: auto;
+        height: auto;
+        /* font-size: 25px; */
+        margin: 15px 15px;
+        text-align: center; 
+        transform: scale(1);
+        animation: pulse 5s infinite;
+    
+    }
+}
