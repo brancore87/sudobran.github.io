@@ -274,10 +274,14 @@ li.postgres:hover .tooltip {
 
 
 .container {
-    height: 70vh; 
     display: flex;
+    justify-content:center;
+    align-content: flex-end;
+    font-size: 1.5em;
+    text-align: center;
     align-items: center;
-    justify-content: center;
+    height: 50%;
+    margin: 50px 50px;
 }
 
 .box1{
@@ -551,12 +555,12 @@ li.postgres:hover .tooltip {
         .container {
             display: flex;
             justify-content:center;
-            align-content: flex-end;
+            align-content:space-around;
             font-size: 1.5em;
             text-align: center;
             align-items: center;
-            height: 50%;
-            margin: 50px 50px;
+            height: 100%;
+            margin: auto;
         }
         
         .box1{
@@ -596,7 +600,7 @@ li.postgres:hover .tooltip {
         }
         
         .box3{
-            /* border: 1px solid rgb(255, 255, 255); */
+            border: 1px solid rgb(255, 255, 255);
             width: 100px;
             height: 100px;
             margin: 10px;
@@ -605,11 +609,11 @@ li.postgres:hover .tooltip {
         }
         
         .box3:hover{
-            /* border-color: rgb(229, 255, 0);
+            border-color: rgb(229, 255, 0);
             background-image: url(./assets/yellow-icon.png); 
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center;  */
+            background-position: center; 
             transform: scale(1);
             transform: rotate(1080deg);
         }    
